@@ -38,7 +38,7 @@ class ViewController: UIViewController {
             answer = Double(num1 * num2)
         }
         if operand == DIVIDE {
-            answer = Double(num1 / num2)
+            answer = Double(num1) / Double(num2)
         }
         
         num1 = 0
